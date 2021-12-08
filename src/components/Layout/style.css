@@ -1,0 +1,26 @@
+.aside {
+    width: 13%;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    border-right: 3.5px solid #839BB1;
+}
+
+.main {
+    display: flex;
+    padding: 0 15px;
+}
+
+.name-nav {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+}
+
+.nav-item{
+    display: flex;
+    flex-direction: column;
+}
+
+.active{
+    color: #DC2626FF;
+}
