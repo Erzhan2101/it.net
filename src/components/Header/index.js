@@ -1,5 +1,6 @@
 import React from 'react';
 import './style.css'
+import {Link} from "react-router-dom";
 
 const Header = () => {
     return (
@@ -16,8 +17,8 @@ const Header = () => {
                 <div className="authorization">
                     {/*<img src="" alt=""/>*/}
                     {/*<p className="user_name"></p>*/}
-                    <button className="login">log in</button>
-                    <button className="btn">registration</button>
+                    <Link to="login" className="login">log in</Link>
+                    <Link to="registration" className="btn">registration</Link>
                 </div>
             </div>
         </header>

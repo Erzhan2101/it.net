@@ -10,7 +10,9 @@ const Layout = ({children}) => {
     return (
         <main className='main'>
             <aside className="aside">
-                <img src={logo} alt="logo" className="logo pt-1"/>
+                <div className="borderH">
+                    <img src={logo} alt="logo" className="logo"/>
+                </div>
                 <p className="name-nav pt-3 pb-3 ">MENU</p>
                 <ul className="nav">
                     <li className="nav-item">
@@ -22,7 +24,6 @@ const Layout = ({children}) => {
                             className='bx bx-conversation'/> Message</NavLink>
                         <NavLink to='/friends' className='hover:text-red-600 pb-4'><i className='bx bx-group'/> Friends</NavLink>
                     </li>
-                    {/*<li className="settings"><NavLink to='/settings' className='hover:text-red-600 '><i className='bx bxs-cog'/> Settings</NavLink></li>*/}
                 </ul>
             </aside>
             <div className='content'>

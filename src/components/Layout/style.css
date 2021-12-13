@@ -3,7 +3,9 @@
     position: sticky;
     top: 0;
     height: 100vh;
-    border-right: 3.5px solid #839BB1;
+    border-right:3.5px solid #839BB1;
+    padding-right: 10px;
+
 }
 
 .main {
@@ -23,4 +25,12 @@
 
 .active{
     color: #DC2626FF;
+}
+
+.logo{
+    margin-top: 12px;
+}
+
+.borderH{
+    border-bottom: 3.5px solid #839BB1;
 }
