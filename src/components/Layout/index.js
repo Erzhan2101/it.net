@@ -16,9 +16,9 @@ const Layout = ({children}) => {
                 <p className="name-nav pt-3 pb-3 ">MENU</p>
                 <ul className="nav">
                     <li className="nav-item">
-                        <NavLink to='/myprofile' className='hover:text-red-600 pb-4'><i
+                        <NavLink to='/my-profile' className='hover:text-red-600 pb-4'><i
                             className='bx bx-user-circle'/> My profile</NavLink>
-                        <NavLink to='/timeline' className='hover:text-red-600 pb-4'><i
+                        <NavLink to='/news-line' className='hover:text-red-600 pb-4'><i
                             className='bx bxs-home'/> Home</NavLink>
                         <NavLink to='/message' className='hover:text-red-600 pb-4'><i
                             className='bx bx-conversation'/> Message</NavLink>

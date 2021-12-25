@@ -12,6 +12,7 @@ const Header = () => {
                             <button type="submit" className="btn">
                                search
                             </button>
+
                     </div>
                 </form>
                 <div className="authorization">
