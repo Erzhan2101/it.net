@@ -6,22 +6,17 @@ const Registration = () => {
             <div className="font-sans">
                 <div className="relative min-h-screen flex flex-col sm:justify-center items-center ">
                     <div className="relative sm:max-w-sm w-full">
-                        <div className="card bg-blue-400 shadow-lg  w-full h-full rounded-3xl absolute  transhtmlForm -rotate-6"/>
-                        <div className="card bg-red-400 shadow-lg  w-full h-full rounded-3xl absolute  transhtmlForm rotate-6"/>
-                        <div className="relative w-full rounded-3xl  px-6 py-4 bg-gray-100 shadow-md">
+                        <div className="relative w-full rounded-3xl  px-6 py-4 bg-white shadow-md">
                             <label htmlFor="" className="block mt-3 text-sm text-gray-700 text-center font-semibold">
                                 Registration
                             </label>
                             <htmlForm method="#" action="#" className="mt-10">
-
                                 <div>
-                                    <input type="email" placeholder="Correo electronico" className="mt-1 block w-full border-none bg-gray-100 h-11 rounded-xl shadow-lg hover:bg-blue-100 focus:bg-blue-100 focus:ring-0"/>
+                                    <input type="email" placeholder="Correo electronico" className="px-1.5 mt-1 block w-full border-none bg-gray-100 h-11 rounded-xl shadow-lg hover:bg-blue-100 focus:bg-blue-100 focus:ring-0"/>
                                 </div>
-
                                 <div className="mt-7">
-                                    <input type="password" placeholder="Contraseña" className="mt-1 block w-full border-none bg-gray-100 h-11 rounded-xl shadow-lg hover:bg-blue-100 focus:bg-blue-100 focus:ring-0"/>
+                                    <input type="password" placeholder="Contraseña" className="px-1.5 mt-1 block w-full border-none bg-gray-100 h-11 rounded-xl shadow-lg hover:bg-blue-100 focus:bg-blue-100 focus:ring-0"/>
                                 </div>
-
                                 <div className="mt-7 flex">
                                     <label htmlFor="remember_me" className="inline-flex items-center w-full cursor-pointer">
                                         <input id="remember_me" type="checkbox" className="rounded border-gray-300 text-indigo-600 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50" name="remember"/>
@@ -29,7 +24,6 @@ const Registration = () => {
                                         Recuerdame
                                     </span>
                                     </label>
-
                                     <div className="w-full text-right">
                                         <a className="underline text-sm text-gray-600 hover:text-gray-900" href="#">
                                             ¿Olvidó su contraseña?

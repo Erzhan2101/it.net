@@ -8,8 +8,8 @@ const Header = () => {
             <div className="header">
                 <form>
                     <div className="relative text-gray-600 search-system">
-                        <input type="search" name="search" placeholder="Search" className="bg-white  text-gray-800  input-search "/>
-                            <button type="submit" className="btn">
+                        <input type="search" name="search" placeholder="Search" className="bg-white  text-gray-800  input-search"/>
+                            <button type="submit" className="btn font-bold">
                                search
                             </button>
 
@@ -19,7 +19,7 @@ const Header = () => {
                     {/*<img src="" alt=""/>*/}
                     {/*<p className="user_name"></p>*/}
                     <Link to="login" className="login">log in</Link>
-                    <Link to="registration" className="btn">registration</Link>
+                    <Link to="registration" className="btn font-bold">registration</Link>
                 </div>
             </div>
         </header>

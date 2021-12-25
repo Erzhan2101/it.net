@@ -6,6 +6,7 @@ import UserProfile from "./views/userProfile";
 import NewsLine from "./views/NewsLine";
 import Message from  "./views/Message"
 import AllFriends from "./views/AllFriends";
+import BtnUp from "./components/BtnUp";
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
                     <Route exact path="/friends" component={AllFriends}/>
                     <Route exact path="/login" component={Login}/>
                     <Route exact path="/registration" component={Registration}/>
+                    <BtnUp/>
                 </Layout>
         </Router>
     );
